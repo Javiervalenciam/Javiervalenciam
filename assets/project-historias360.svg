@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">AppHistorias360</title><desc id="desc">Historia laboral y pensional consolidada en una vista 360.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08110f"/><stop offset="1" stop-color="#0b1917"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6aa9ff"/><stop offset="1" stop-color="#2bb7b0"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#6aa9ff" stop-opacity=".24"/><stop offset="1" stop-color="#6aa9ff" stop-opacity="0"/></radialGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<style>
+  .sans{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif} .mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+  .trace{stroke-dasharray:8 10;animation:flow 9s linear infinite} .rise{animation:rise 5s ease-in-out infinite} .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 3.4s ease-in-out infinite} .blink{animation:blink 2.6s ease-in-out infinite}
+  @keyframes flow{to{stroke-dashoffset:-180}} @keyframes rise{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}} @keyframes pulse{0%,100%{opacity:.55;transform:scale(.96)}50%{opacity:1;transform:scale(1.04)}} @keyframes blink{0%,100%{opacity:.45}50%{opacity:1}}
+  @media (prefers-reduced-motion:reduce){.trace,.rise,.pulse,.blink{animation:none!important}}
+</style>
+<rect width="1200" height="360" rx="24" fill="url(#bg)"/><rect x="1" y="1" width="1198" height="358" rx="23" fill="none" stroke="#20453d"/>
+<circle cx="1020" cy="120" r="240" fill="url(#glow)" filter="url(#soft)"/>
+<g opacity=".36" stroke="#20453d"><path d="M0 86H1200M0 274H1200"/><path d="M58 0V360M1142 0V360"/></g>
+<g class="sans">
+  <rect x="64" y="55" width="184" height="30" rx="15" fill="#6aa9ff" fill-opacity=".12" stroke="#6aa9ff" stroke-opacity=".38"/>
+  <circle cx="82" cy="70" r="4" fill="#6aa9ff" class="blink"/><text x="96" y="75" fill="#6aa9ff" font-size="13" font-weight="700" letter-spacing="1.4">PROYECTO DESTACADO</text>
+  <text x="64" y="146" fill="#eaf5f1" font-size="44" font-weight="760">AppHistorias360</text>
+  <text x="64" y="187" fill="#91aaa2" font-size="20">Historia laboral y pensional consolidada en una vista 360.</text>
+</g>
+<g transform="translate(792 49)"><rect x="0" y="18" width="326" height="246" rx="18" fill="#0c1b18" stroke="#2a554c"/><path d="M36 81H290M36 139H290M36 197H290" stroke="#20453d"/><path d="M65 81c28-44 57 44 85 0s57 44 85 0 38 0 55-22" fill="none" stroke="url(#accent)" stroke-width="3" class="trace"/><g fill="#102d27" stroke="#46d7a1"><rect x="36" y="111" width="104" height="48" rx="10"/><rect x="154" y="111" width="136" height="48" rx="10"/><rect x="36" y="177" width="254" height="48" rx="10"/></g><g class="mono" font-size="12" fill="#b8d0c8"><text x="54" y="140">COLPENSIONES</text><text x="174" y="140">PORVENIR · PROTECCIÓN</text><text x="54" y="206">HISTORIA LABORAL UNIFICADA</text></g><circle cx="290" cy="59" r="11" fill="#46d7a1" class="pulse"/></g>
+</svg>

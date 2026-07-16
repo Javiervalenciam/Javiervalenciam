@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Sistema POS · Heladería</title><desc id="desc">Ventas, productos y operación diaria desde una interfaz de caja.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08110f"/><stop offset="1" stop-color="#0b1917"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2bb7b0"/><stop offset="1" stop-color="#2bb7b0"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#2bb7b0" stop-opacity=".24"/><stop offset="1" stop-color="#2bb7b0" stop-opacity="0"/></radialGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<style>
+  .sans{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif} .mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+  .trace{stroke-dasharray:8 10;animation:flow 9s linear infinite} .rise{animation:rise 5s ease-in-out infinite} .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 3.4s ease-in-out infinite} .blink{animation:blink 2.6s ease-in-out infinite}
+  @keyframes flow{to{stroke-dashoffset:-180}} @keyframes rise{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}} @keyframes pulse{0%,100%{opacity:.55;transform:scale(.96)}50%{opacity:1;transform:scale(1.04)}} @keyframes blink{0%,100%{opacity:.45}50%{opacity:1}}
+  @media (prefers-reduced-motion:reduce){.trace,.rise,.pulse,.blink{animation:none!important}}
+</style>
+<rect width="1200" height="360" rx="24" fill="url(#bg)"/><rect x="1" y="1" width="1198" height="358" rx="23" fill="none" stroke="#20453d"/>
+<circle cx="1020" cy="120" r="240" fill="url(#glow)" filter="url(#soft)"/>
+<g opacity=".36" stroke="#20453d"><path d="M0 86H1200M0 274H1200"/><path d="M58 0V360M1142 0V360"/></g>
+<g class="sans">
+  <rect x="64" y="55" width="184" height="30" rx="15" fill="#2bb7b0" fill-opacity=".12" stroke="#2bb7b0" stroke-opacity=".38"/>
+  <circle cx="82" cy="70" r="4" fill="#2bb7b0" class="blink"/><text x="96" y="75" fill="#2bb7b0" font-size="13" font-weight="700" letter-spacing="1.4">PROYECTO DESTACADO</text>
+  <text x="64" y="146" fill="#eaf5f1" font-size="44" font-weight="760">Sistema POS · Heladería</text>
+  <text x="64" y="187" fill="#91aaa2" font-size="20">Ventas, productos y operación diaria desde una interfaz de caja.</text>
+</g>
+<g transform="translate(794 58)"><rect width="324" height="246" rx="18" fill="#0c1b18" stroke="#2a554c"/><rect x="22" y="22" width="190" height="202" rx="13" fill="#10231f"/><g fill="#173d34" stroke="#2b5a50"><rect x="37" y="40" width="72" height="56" rx="9"/><rect x="125" y="40" width="72" height="56" rx="9"/><rect x="37" y="112" width="72" height="56" rx="9"/><rect x="125" y="112" width="72" height="56" rx="9"/></g><path d="M61 76c4-18 22-20 27 0Z" fill="#46d7a1"/><path d="M149 76c4-18 22-20 27 0Z" fill="#f2b95f"/><path d="M61 148c4-18 22-20 27 0Z" fill="#6aa9ff"/><path d="M149 148c4-18 22-20 27 0Z" fill="#2bb7b0"/><path d="M233 45H299M233 76H282M233 107H299M233 174H299" stroke="#2b5a50" stroke-width="7" stroke-linecap="round"/><path d="M233 174H278" stroke="#f2b95f" stroke-width="7" stroke-linecap="round" class="rise"/><rect x="229" y="195" width="73" height="28" rx="8" fill="#46d7a1" fill-opacity=".16" stroke="#46d7a1"/><text x="266" y="214" text-anchor="middle" class="mono" fill="#8bf0c9" font-size="11">COBRAR</text></g>
+</svg>

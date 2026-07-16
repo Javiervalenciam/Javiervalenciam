@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">AppPensional</title><desc id="desc">Escenarios y cálculos para el contexto pensional colombiano.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08110f"/><stop offset="1" stop-color="#0b1917"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f2b95f"/><stop offset="1" stop-color="#2bb7b0"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#f2b95f" stop-opacity=".24"/><stop offset="1" stop-color="#f2b95f" stop-opacity="0"/></radialGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<style>
+  .sans{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif} .mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+  .trace{stroke-dasharray:8 10;animation:flow 9s linear infinite} .rise{animation:rise 5s ease-in-out infinite} .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 3.4s ease-in-out infinite} .blink{animation:blink 2.6s ease-in-out infinite}
+  @keyframes flow{to{stroke-dashoffset:-180}} @keyframes rise{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}} @keyframes pulse{0%,100%{opacity:.55;transform:scale(.96)}50%{opacity:1;transform:scale(1.04)}} @keyframes blink{0%,100%{opacity:.45}50%{opacity:1}}
+  @media (prefers-reduced-motion:reduce){.trace,.rise,.pulse,.blink{animation:none!important}}
+</style>
+<rect width="1200" height="360" rx="24" fill="url(#bg)"/><rect x="1" y="1" width="1198" height="358" rx="23" fill="none" stroke="#20453d"/>
+<circle cx="1020" cy="120" r="240" fill="url(#glow)" filter="url(#soft)"/>
+<g opacity=".36" stroke="#20453d"><path d="M0 86H1200M0 274H1200"/><path d="M58 0V360M1142 0V360"/></g>
+<g class="sans">
+  <rect x="64" y="55" width="184" height="30" rx="15" fill="#f2b95f" fill-opacity=".12" stroke="#f2b95f" stroke-opacity=".38"/>
+  <circle cx="82" cy="70" r="4" fill="#f2b95f" class="blink"/><text x="96" y="75" fill="#f2b95f" font-size="13" font-weight="700" letter-spacing="1.4">PROYECTO DESTACADO</text>
+  <text x="64" y="146" fill="#eaf5f1" font-size="44" font-weight="760">AppPensional</text>
+  <text x="64" y="187" fill="#91aaa2" font-size="20">Escenarios y cálculos para el contexto pensional colombiano.</text>
+</g>
+<g transform="translate(800 58)"><circle cx="148" cy="126" r="105" fill="#0d1d1a" stroke="#2a554c"/><path d="M148 126 148 42A84 84 0 0 1 226 96Z" fill="url(#accent)" fill-opacity=".75" class="pulse"/><path d="M148 126 226 96A84 84 0 0 1 190 199Z" fill="#f2b95f" fill-opacity=".45"/><path d="M148 126 190 199A84 84 0 1 1 148 42Z" fill="#163a32"/><circle cx="148" cy="126" r="48" fill="#08110f" stroke="#2b5a50"/><text x="148" y="122" text-anchor="middle" class="sans" fill="#eaf5f1" font-size="14">ESCENARIO</text><text x="148" y="145" text-anchor="middle" class="mono" fill="#46d7a1" font-size="18">PENSIONAL</text><path d="M274 70v126" stroke="#2bb7b0" class="trace"/><circle cx="274" cy="94" r="7" fill="#2bb7b0" class="pulse"/><circle cx="274" cy="154" r="7" fill="#f2b95f"/><circle cx="274" cy="196" r="7" fill="#6aa9ff"/></g>
+</svg>
