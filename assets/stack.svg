@@ -1,0 +1,74 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111D"/>
+      <stop offset="1" stop-color="#0D172B"/>
+    </linearGradient>
+    <radialGradient id="core" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 260) scale(160)">
+      <stop stop-color="#8A5CFF" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#8A5CFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <style>
+      .title { font: 800 26px Inter, system-ui, sans-serif; fill: #F4F7FF; }
+      .sub { font: 500 14px ui-monospace, SFMono-Regular, Menlo, monospace; fill: rgba(255,255,255,0.65); }
+      .chip { fill: rgba(255,255,255,0.06); stroke: rgba(255,255,255,0.16); stroke-width: 1; }
+      .chipText { font: 700 14px Inter, system-ui, sans-serif; fill: white; }
+      .line { stroke: rgba(255,255,255,0.09); stroke-width: 1.2; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="520" rx="28" fill="url(#bg)"/>
+  <circle cx="600" cy="260" r="150" fill="url(#core)" filter="url(#glow)"/>
+
+  <text x="60" y="70" class="title">Tech Stack · 2026</text>
+  <text x="60" y="94" class="sub">AI-assisted development · automation · UI systems · business software</text>
+
+  <g opacity="0.7">
+    <path d="M150 160H1050" class="line"/>
+    <path d="M150 360H1050" class="line"/>
+  </g>
+
+  <g>
+    <rect x="505" y="120" width="190" height="44" rx="22" class="chip"/>
+    <text x="600" y="148" text-anchor="middle" class="chipText">Claude Code</text>
+
+    <rect x="770" y="170" width="115" height="40" rx="20" class="chip"/>
+    <text x="828" y="196" text-anchor="middle" class="chipText">Cursor</text>
+
+    <rect x="760" y="260" width="122" height="40" rx="20" class="chip"/>
+    <text x="821" y="286" text-anchor="middle" class="chipText">Node.js</text>
+
+    <rect x="700" y="360" width="115" height="40" rx="20" class="chip"/>
+    <text x="757" y="386" text-anchor="middle" class="chipText">React</text>
+
+    <rect x="565" y="400" width="130" height="40" rx="20" class="chip"/>
+    <text x="630" y="426" text-anchor="middle" class="chipText">TypeScript</text>
+
+    <rect x="420" y="350" width="118" height="40" rx="20" class="chip"/>
+    <text x="479" y="376" text-anchor="middle" class="chipText">Vercel</text>
+
+    <rect x="365" y="255" width="105" height="40" rx="20" class="chip"/>
+    <text x="417" y="281" text-anchor="middle" class="chipText">Python</text>
+
+    <rect x="350" y="165" width="125" height="40" rx="20" class="chip"/>
+    <text x="413" y="191" text-anchor="middle" class="chipText">Supabase</text>
+
+    <rect x="545" y="200" width="110" height="44" rx="22" class="chip"/>
+    <text x="600" y="228" text-anchor="middle" class="chipText">AI + Data</text>
+  </g>
+
+  <g>
+    <circle cx="600" cy="260" r="68" fill="rgba(138,92,255,0.18)" stroke="rgba(255,255,255,0.16)"/>
+    <circle cx="600" cy="260" r="110" fill="none" stroke="rgba(138,92,255,0.16)" stroke-dasharray="3 8">
+      <animateTransform attributeName="transform" type="rotate" from="0 600 260" to="360 600 260" dur="28s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="260" r="150" fill="none" stroke="rgba(255,255,255,0.08)" stroke-dasharray="1 14">
+      <animateTransform attributeName="transform" type="rotate" from="360 600 260" to="0 600 260" dur="40s" repeatCount="indefinite"/>
+    </circle>
+    <text x="600" y="254" text-anchor="middle" style="font:800 22px Inter,system-ui,sans-serif; fill:white;">Javier</text>
+    <text x="600" y="279" text-anchor="middle" style="font:500 14px ui-monospace,monospace; fill:rgba(255,255,255,0.72);">business software</text>
+  </g>
+</svg>
