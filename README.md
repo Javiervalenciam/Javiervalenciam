@@ -91,16 +91,20 @@ Sistema de punto de venta orientado a la operación de una heladería. Se presen
 
 ## GitHub Stats
 
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Javiervalenciam&show_icons=true&hide_border=true&bg_color=08110f&title_color=46d7a1&text_color=91aaa2&icon_color=f2b95f&locale=es" alt="Estadísticas de GitHub de Javier Valencia" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Javiervalenciam&layout=compact&hide_border=true&bg_color=08110f&title_color=46d7a1&text_color=91aaa2&langs_count=6" alt="Lenguajes más usados" />
-</div>
+<p align="center">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Javiervalenciam&theme=github_dark" alt="Estadísticas generales de Javier Valencia" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Javiervalenciam&theme=github_dark" alt="Repositorios por lenguaje" />
+</p>
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Javiervalenciam&hide_border=true&background=08110F&ring=46D7A1&fire=F2B95F&currStreakLabel=46D7A1&sideLabels=91AAA2&dates=647C75&currStreakNum=EAF5F1&sideNums=EAF5F1&locale=es" alt="Racha de contribuciones" />
-</div>
+<p align="center">
+  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Javiervalenciam&theme=github_dark" alt="Detalle de actividad de Javier Valencia" />
+</p>
 
-> Si un servicio externo de estadísticas no responde, los proyectos y el contenido principal del perfil siguen disponibles sin depender de esas imágenes.
+<p align="center">
+  <img width="58%" src="https://streak-stats.demolab.com?user=Javiervalenciam&hide_border=true&background=0D1117&ring=46D7A1&fire=F2B95F&currStreakLabel=46D7A1&sideLabels=91AAA2&dates=647C75&currStreakNum=EAF5F1&sideNums=EAF5F1&locale=es" alt="Racha de contribuciones" />
+</p>
+
+<sub>Las tarjetas se generan dinámicamente. Si un proveedor está temporalmente fuera de servicio, consulta la pestaña **Activity** del perfil para ver la información directamente en GitHub.</sub>
 
 ## Contacto
 
