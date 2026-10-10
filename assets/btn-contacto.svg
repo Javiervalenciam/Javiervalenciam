@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="264" height="56" viewBox="0 0 264 56" role="img" aria-labelledby="t d" fill="none">
+<title id="t">Contáctame</title><desc id="d">Contáctame</desc>
+<style>
+.sans{font-family:'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}
+.mono{font-family:ui-monospace, 'SF Mono', 'Cascadia Code', Consolas, Menlo, monospace}
+.up{animation:up .9s cubic-bezier(.2,.7,.2,1) both}
+.fade{animation:fade 1.2s ease both}
+.draw{animation:draw 1.6s cubic-bezier(.6,0,.2,1) both}
+@keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes draw{from{stroke-dashoffset:var(--len,400)}to{stroke-dashoffset:0}}
+.sh{animation:sh 6s ease-in-out infinite}@keyframes sh{0%,70%{transform:translateX(-120px)}100%{transform:translateX(320px)}}@media (prefers-reduced-motion:reduce){.up,.fade,.draw{animation:none!important}.sh{animation:none!important;display:none}}</style>
+<rect x=".75" y=".75" width="262.5" height="54.5" rx="10" fill="#14181D" stroke="#3A404A" stroke-width="1.5"/><g transform="translate(68.42719999999998 18.0) scale(0.8333)" fill="none" stroke="#F2EDE4" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></g><text x="100.4" y="34.0" class="sans" font-size="17" font-weight="600" fill="#F2EDE4">Contáctame</text>
+</svg>

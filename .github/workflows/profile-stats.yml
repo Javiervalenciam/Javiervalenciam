@@ -1,0 +1,36 @@
+name: Actualizar estadísticas del perfil
+
+on:
+  schedule:
+    - cron: "0 11 * * *" # 06:00 Colombia
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generar SVG con datos de GitHub
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::warning::Falta el secreto PROFILE_STATS_TOKEN; se conservan las estadísticas actuales."
+            exit 0
+          fi
+          python scripts/github_stats.py
+      - name: Publicar cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/metrics.svg assets/github-stats.svg data/github-stats.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: actualizar estadísticas del perfil"
+            git push
+          fi
